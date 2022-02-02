@@ -26,8 +26,8 @@
 
       .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-gap: 15%;
+        grid-template-columns: 50px 200px 300px 100px;
+        grid-gap: 10%;
         background-color: #2196f3;
         background-image: url("logo.png");
         background-size: 20px;
@@ -43,8 +43,9 @@
       }
 
       .card {
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         width: 200%;
+        height: 200px;
       }
 
       .items2 {
@@ -59,6 +60,9 @@
       .posisi2 {
         text-align: left;
         padding-right: 10px;
+      }
+      .Kerja {
+        background-color: aqua;
       }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -142,42 +146,60 @@
 
     <section>
       <h2>Pengalaman Kerja</h2>
-      <table>
+      <table class="Kerja">
         <tr>
-          <td>No.</td>
-          <td style="padding-left: 30px">Nama Organisasi</td>
-          <td style="padding-left: 30px">Jabatan</td>
-          <td style="padding-left: 30px">Tahun Keanggotaan</td>
+          <td style="border-style: dashed">No.</td>
+          <td style="text-align: center; border-style: dashed">
+            Nama Organisasi
+          </td>
+          <td style="text-align: center; border-style: dashed">Jabatan</td>
+          <td style="text-align: center; border-style: dashed">
+            Tahun Keanggotaan
+          </td>
         </tr>
         <tr>
-          <td>1</td>
-          <td style="padding-left: 30px">Betukang.id (Magang)</td>
-          <td style="padding-left: 30px">Data Analyst</td>
-          <td style="padding-left: 30px">2021</td>
+          <td style="border-style: dashed">1</td>
+          <td style="text-align: left; border-style: dashed">
+            Betukang.id (Magang)
+          </td>
+          <td style="text-align: left; border-style: dashed">Data Analyst</td>
+          <td style="text-align: left; border-style: dashed">2021</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td style="padding-left: 30px">-</td>
-          <td style="padding-left: 30px">-</td>
-          <td style="padding-left: 30px">-</td>
+          <td style="border-style: dashed; padding-right: 20px">2</td>
+          <td
+            style="text-align: left; border-style: dashed; padding-right: 20px"
+          >
+            Ikomart.id (Magang)
+          </td>
+          <td
+            style="text-align: left; border-style: dashed; padding-right: 20px"
+          >
+            Applications Tester/QA
+          </td>
+          <td
+            style="text-align: left; border-style: dashed; padding-right: 20px"
+          >
+            2022
+          </td>
         </tr>
         <tr>
-          <td>....</td>
-          <td style="padding-left: 30px">....</td>
-          <td style="padding-left: 30px">....</td>
-          <td style="padding-left: 30px">....</td>
+          <td style="border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
         </tr>
         <tr>
-          <td>....</td>
-          <td style="padding-left: 30px">....</td>
-          <td style="padding-left: 30px">....</td>
-          <td style="padding-left: 30px">....</td>
+          <td style="border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
+          <td style="padding-left: 30px; border-style: dashed">....</td>
         </tr>
         <tr>
-          <td>n</td>
-          <td style="padding-left: 30px">-</td>
-          <td style="padding-left: 30px">-</td>
-          <td style="padding-left: 30px">-</td>
+          <td style="border-style: dashed">n</td>
+          <td style="padding-left: 30px; border-style: dashed">-</td>
+          <td style="padding-left: 30px; border-style: dashed">-</td>
+          <td style="padding-left: 30px; border-style: dashed">-</td>
         </tr>
       </table>
     </section>
